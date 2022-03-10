@@ -1,0 +1,14 @@
+# [programs.localnet]
+[programs.devnet]
+solana_gifs_portal = "FFL87RjGPGkuZmtvhyXMW2SadX5tYWfKd9wXK6gx35Lk"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+# cluster = "localnet"
+cluster = "devnet"
+wallet = "/Users/esteban.pintos/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solana-gifs-portal.js" 
